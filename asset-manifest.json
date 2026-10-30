@@ -9,10 +9,11 @@
     "assets/approved/hyperelon-logo.png",
     "assets/approved/approved-layout-reference.png"
   ],
-  "technical_derivatives": {
+  "layout_scene_assets": {
+    "status": "REVIEW CANDIDATES — user final approval still required",
     "favicon": "assets/favicon.png",
     "layout_crops": "assets/layout-crops/*.webp",
-    "description": "Cropping / resizing approved sources only. No unapproved source imagery."
+    "description": "Standalone scene artworks replacing prior mockup-derived crops. Logo and main-character remain approved originals."
   },
   "external_video_or_chart": false,
   "contract_address": null,

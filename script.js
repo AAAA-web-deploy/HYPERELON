@@ -8,14 +8,14 @@ const dialogTitle = document.getElementById('dialogTitle');
 const sceneCards = Array.from(document.querySelectorAll('[data-scene]'));
 
 const scenes = [
-  { id: 'moon', name: 'TO THE MOON', file: 'to-the-moon.webp', alt: 'HyperElon rides with a futuristic Shiba Inu beneath a planet' },
-  { id: 'future', name: 'A BRIGHTER FUTURE', file: 'brighter-future.webp', alt: 'A luminous Ethereum-inspired futuristic megacity' },
-  { id: 'mission', name: 'THE MISSION', file: 'mission.webp', alt: 'HyperElon approaches a glowing diamond above a futuristic city' },
-  { id: 'liftoff', name: 'LIFTOFF', file: 'liftoff.webp', alt: 'Rocket rising into violet clouds' },
-  { id: 'different', name: 'BUILT DIFFERENT', file: 'built-different.webp', alt: 'Close-up of HyperElon under a violet planet' },
-  { id: 'crew', name: 'THE HYPER CREW', file: 'community.webp', alt: 'The HyperElon community celebrating in a futuristic arena' },
-  { id: 'bigger', name: 'BIGGER THAN US', file: 'bigger-than-us.webp', alt: 'HyperElon and companion look toward Earth from the Moon' },
-  { id: 'next', name: 'NEXT CHAPTER', file: 'next-chapter.webp', alt: 'Electric vehicles racing through a sci-fi city' }
+  { id: 'moon', name: 'TO THE MOON', file: 'to-the-moon.webp', alt: 'HyperElon and dog riding toward a glowing futuristic city' },
+  { id: 'future', name: 'A BRIGHTER FUTURE', file: 'brighter-future.webp', alt: 'Bright neon Ethereum-inspired city at sunrise' },
+  { id: 'mission', name: 'THE MISSION', file: 'mission.webp', alt: 'HyperElon from behind beneath a tall neon Ethereum crystal' },
+  { id: 'liftoff', name: 'LIFTOFF', file: 'liftoff.webp', alt: 'Rocket launching from a futuristic spaceport' },
+  { id: 'different', name: 'BUILT DIFFERENT', file: 'built-different.webp', alt: 'HyperElon close-up portrait against a cosmic planet' },
+  { id: 'crew', name: 'THE HYPER CREW', file: 'community.webp', alt: 'HyperElon leading a crowd at a massive Ethereum rally' },
+  { id: 'bigger', name: 'BIGGER THAN US', file: 'bigger-than-us.webp', alt: 'HyperElon with dog on a lunar horizon gazing at Earth' },
+  { id: 'next', name: 'NEXT CHAPTER', file: 'next-chapter.webp', alt: 'Futuristic neon hypercar over a crystal city' }
 ];
 let activeSceneIndex = 0;
 let lastTrigger = null;
