@@ -1,0 +1,20 @@
+{
+  "project": "HyperElon",
+  "ticker": "HYPELON",
+  "network": "Ethereum Mainnet",
+  "phase": 3,
+  "design": "Approved Plan A, revised mixed-size card layout",
+  "approved_original_assets": [
+    "assets/approved/main-character.png",
+    "assets/approved/hyperelon-logo.png",
+    "assets/approved/approved-layout-reference.png"
+  ],
+  "technical_derivatives": {
+    "favicon": "assets/favicon.png",
+    "layout_crops": "assets/layout-crops/*.webp",
+    "description": "Cropping / resizing approved sources only. No unapproved source imagery."
+  },
+  "external_video_or_chart": false,
+  "contract_address": null,
+  "social_links": null
+}
